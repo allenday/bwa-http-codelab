@@ -13,7 +13,7 @@ create ${NAME}-template \
 gcloud compute instance-groups managed \
 create ${NAME}-managed-instance-group \
 --base-instance-name ${NAME} \
---size 1 \
+--size $MIN_REPLICAS \
 --template ${NAME}-template \
 --zone $ZONE
 
