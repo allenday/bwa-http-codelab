@@ -10,3 +10,4 @@ Build an autoscaling and managed BWA cluster on Google Cloud.
 * Parallelize perl script to demo autoscaling. socket polling?
 * Alter MIG configuration to lower CPU utilization - will increase autoscaling sensitivity for demo purpose.
 * Add rice sample download URL
+* bring in rice yaml file used for rice3k DV alignment. prod example
