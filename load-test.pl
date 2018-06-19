@@ -4,7 +4,7 @@ use File::Temp qw(tempfile);
 
 my $i = 0;
 my $records_per_batch = 1000;
-my $lines_per_record = 4;
+my $lines_per_record = 8;
 my @buf = ();
 my $args = shift @ARGV;
 my $url = "http://HOSTNAME/cgi-bin/bwa.cgi";
