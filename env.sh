@@ -5,4 +5,4 @@ export ZONE="${REGION}-d"
 export MACHINE_TYPE="n1-standard-1"
 export MIN_REPLICAS=1
 export MAX_REPLICAS=3
-export TARGET_CPU_UTILIZATION=0.8
+export TARGET_CPU_UTILIZATION=0.5
